@@ -1,0 +1,329 @@
+/*Меню*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .Navi_container {
+        max-width: 987px;
+        height: 100px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 32px 32px;
+    }
+
+
+    .Navi__logo {
+        width: 150px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    
+    .Navi__menu {
+        display: flex;
+        align-items: center;
+        margin-left: 65px;
+    }
+
+    .Navi__menu_point {
+        padding-right: 50px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        font-family: 'Alex Brush', cursive;
+        font-family: 'Rock Salt', cursive;
+    }
+
+    .Navi__search {
+        width: 24px;
+        height: 24px;
+        padding-left: 30px;
+        margin-top: 38px;
+        color: black;
+    }
+}
+
+/*Hero*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .Hero {
+        background-image: url(../img/hero.png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+        position: absolute;
+        width: 900px;
+        height: 600px;
+    }
+
+    .Hero__title {
+        width: 770px;
+        height: 146px;
+        padding-top: 100px;
+        padding-left: 80px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 73px;
+        color: #FFFFFF;
+    }
+
+    .Hero__description {
+        margin-top: 25px;
+        padding-left: 80px;
+        width: 660px;
+        height: 48px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .Hero__link {
+        display: inline-block;
+        text-decoration: none;
+        width: 220px;
+        height: 45px;
+        background-color: 
+        #FF9900;
+        margin-top: 90px;
+        margin-left: 80px;
+        padding-top: 30px;
+        padding-left: 50px;
+        border-radius: 20px;
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        }
+}
+
+/*About_us*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .About {
+        max-width: 1024;
+        margin-top: 720px;
+        margin-left: 40px;
+    }
+
+    .About_description {
+        margin-top: 23px;
+        width: 900px;
+        height: 192px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 2;
+        color: #333333;
+    }
+
+    .About__box {
+        display: block;
+    }
+
+    .About__list {
+        width: 900px;
+    }
+
+    .About__worker {
+        background-image: url(../img/worker.png);
+        border-radius: 32px;
+        width: 900px;
+        height: 622px;
+        margin-top: 100px;
+        margin-left: 40px;
+        display: flex;
+    }
+
+    .About__dsc_one {
+        display: flex;
+        box-sizing: border-box;
+        width: 900px;
+        height: 295px;
+        margin-left: 40px;
+        margin-top: 48px;
+        background: #FFFFFF;
+        border: 1px solid #CACACA;
+        border-radius: 32px;
+    }
+
+    .About__dsc_two {
+        display: flex;
+        box-sizing: border-box;
+        width: 903px;
+        height: 295px;
+        margin-left: 45px;
+        margin-top: 2200px;
+        background: #FFFFFF;
+        border: 1px solid #CACACA;
+        border-radius: 32px;
+    }
+}
+
+
+/*How*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+.How {
+    width: 1024px;
+    height: 646px;
+    margin-top: 720px;
+    background-image: none;
+}
+
+.How__list {
+    padding-left: 0px;
+}
+
+.How__point_list {
+    padding-left: 0px;
+}
+
+.How__title {
+    width: 430px;
+    height: 59px;
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+}
+
+.How__point_list{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 49px;
+    padding-right: 86px;
+}
+
+.Consultation {
+    width: 331px;
+    height: 32px;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.Consultation__text {
+    width: 900px;
+    height: 250px;
+    margin-top: 9px;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.Consultation__btn_one,
+.Consultation__btn_two {
+    margin-left: 40px;
+}
+
+}
+
+
+/*FAQ*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .FAQ {
+        width: 900px;
+        height: 70px;
+        margin-top: 50px;
+        margin-left: 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 59px;
+        color: #333333;
+    }
+
+    .FAQ__line,
+    .FAQ__line_two {
+        width: 900px;
+        margin-left: 40px;
+    }
+
+    .FAQ__text {
+        margin-left: 40px;
+        font-size: 18px; 
+    }
+
+}
+
+/*Footer*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+.Footer {
+    width: 1024px;
+    height: 1090px;
+    top: 594px;
+    background: #222222;
+}
+
+.Footer__first {
+    width: 251px;
+}
+
+.Footer__link {
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.Footer__link_lust {
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.Footer__logo {
+    margin-left: 0px;  
+}
+
+.Form {
+    width: 570px;
+    height: 494px;
+}
+
+.Form__title {
+    margin-left: 50px;
+}
+
+.Form__form {
+    margin-left: 50px;
+}
+
+.Footer__soc_vk {
+    margin-left: 0px;
+}
+
+}
