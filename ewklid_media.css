@@ -48,6 +48,26 @@
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) { 
+
+    .Navi_container {
+        max-width: 305px;
+        height: 60px;
+    }
+
+    .Navi__menu,
+    .Navi__search {
+        display: none;
+    }
+
+    .Navi__logo {
+        width: 110px;
+        height: 35px;
+        margin-left: 100px;
+        margin-top: 14px;
+    }
+}
+
 /*Hero*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -108,6 +128,49 @@
         font-size: 18px;
         }
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) { 
+
+    .Hero {
+        width: 290px;
+        height: 308px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    .Hero__title {
+        width: 247px;
+        height: 49px;
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 25px;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .Hero__description {
+        width: 247px;
+        height: 61px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        padding-left: 25px;
+        margin-top: 6px; 
+    }
+
+    .Hero__link {
+        width: 120px;
+        height: 13px;
+        margin-left: 65px;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 12px;
+        padding: 15px;
+        text-align: center;
+        }
+}
+
 
 /*About_us*/
 
@@ -172,6 +235,35 @@
         border: 1px solid #CACACA;
         border-radius: 32px;
     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) { 
+
+
+    .About {
+        width: 290px;
+        height: 1724px;
+        margin-top: 395px;
+        margin-left: 10px;
+    }
+
+    .About__title {
+        width: 71px;
+        height: 29px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .About_description {
+        width: 290px;
+        height: 672px;
+        font-size: 14px;
+        line-height: 28px;  
+    }
+
+
+
 }
 
 
@@ -326,4 +418,38 @@
     margin-left: 0px;
 }
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) { 
+
+    .Footer__link,
+    .Footer__link_lust {
+        display: none;
+    }
+
+    .Footer__logo {
+    display: none;
+    }
+
+    .Form {
+        width: 760px;
+        height: 494px;
+        margin-right: 50px;
+    }
+
+    .Form__name,
+    .Form__mail {
+        width: 760px;
+        height: 60px;
+    }
+
+    .Form__text {
+        width: 760px;
+        height: 150px;
+    }
+
+    .Footer__soc_vk,
+    .Footer__soc_fb {
+        display: none
+    }
 }
